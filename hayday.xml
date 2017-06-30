@@ -1,0 +1,886 @@
+<hayDay>
+    <itemList>
+        <item experiencePoints="1" levelAvailable="1" name="wheat" price="1" source="field" time="2" type="crop"/>
+        <item experiencePoints="2" levelAvailable="1" name="egg" price="5" source="chicken" time="20" type="animal good">
+            <requiredResource amount="1" name="chicken feed"/>
+        </item>
+        <item experiencePoints="1" levelAvailable="2" name="corn" price="2" source="field" time="5" type="crop"/>
+        <item experiencePoints="3" levelAvailable="2" name="bread" price="6" source="bakery" time="5" type="good">
+            <requiredResource amount="3" name="wheat"/>
+        </item>
+        <item experiencePoints="1" levelAvailable="3" name="chicken feed" price="2" source="feed mill" time="5" type="good">
+            <requiredResource amount="1" name="corn"/>
+            <requiredResource amount="2" name="wheat"/>
+        </item>
+        <item experiencePoints="2" levelAvailable="5" name="soybean" price="3" source="field" time="20" type="crop"/>
+        <item experiencePoints="2" levelAvailable="6" name="cow feed" price="4" source="feed mill" time="10" type="good">
+            <requiredResource amount="1" name="corn"/>
+            <requiredResource amount="2" name="soybean"/>
+        </item>
+        <item experiencePoints="3" levelAvailable="6" name="milk" price="9" source="cow" time="60" type="animal good">
+            <requiredResource amount="1" name="cow feed"/>
+        </item>
+        <item experiencePoints="6" levelAvailable="6" name="cream" price="14" source="dairy" time="20" type="good">
+            <requiredResource amount="1" name="milk"/>
+        </item>
+        <item experiencePoints="3" levelAvailable="7" name="sugarcane" price="4" source="field" time="30" type="crop"/>
+        <item experiencePoints="8" levelAvailable="7" name="corn bread" price="20" source="bakery" time="30" type="good">
+            <requiredResource amount="2" name="corn"/>
+            <requiredResource amount="2" name="egg"/>
+        </item>
+        <item experiencePoints="4" levelAvailable="7" name="brown sugar" price="9" source="sugar mill" time="20" type="good">
+            <requiredResource amount="1" name="sugarcane"/>
+        </item>
+        <item experiencePoints="4" levelAvailable="8" name="popcorn" price="9" source="popcorn pot" time="30" type="good">
+            <requiredResource amount="2" name="corn"/>
+        </item>
+        <item experiencePoints="2" levelAvailable="9" name="carrot" price="2" source="field" time="10" type="crop"/>
+        <item experiencePoints="10" levelAvailable="9" name="butter" price="23" source="dairy" time="30" type="good">
+            <requiredResource amount="2" name="milk"/>
+        </item>
+        <item experiencePoints="13" levelAvailable="9" name="pancake" price="30" source="bbq grill" time="30" type="good">
+            <requiredResource amount="1" name="brown sugar"/>
+            <requiredResource amount="3" name="egg"/>
+        </item>
+        <item experiencePoints="2" levelAvailable="10" name="pig feed" price="4" source="feed mill" time="20" type="good">
+            <requiredResource amount="2" name="carrot"/>
+            <requiredResource amount="1" name="soybean"/>
+        </item>
+        <item experiencePoints="5" levelAvailable="10" name="bacon" price="14" source="pig" time="240" type="animal good">
+            <requiredResource amount="1" name="pig feed"/>
+        </item>
+        <item experiencePoints="13" levelAvailable="10" name="cookie" price="29" source="bakery" time="60" type="good">
+            <requiredResource amount="1" name="brown sugar"/>
+            <requiredResource amount="2" name="egg"/>
+            <requiredResource amount="2" name="wheat"/>
+        </item>
+        <item experiencePoints="24" levelAvailable="11" name="bacon and eggs" price="56" source="bbq grill" time="60" type="good">
+            <requiredResource amount="2" name="bacon"/>
+            <requiredResource amount="4" name="egg"/>
+        </item>
+        <item experiencePoints="15" levelAvailable="12" name="cheese" price="34" source="dairy" time="60" type="good">
+            <requiredResource amount="3" name="milk"/>
+        </item>
+        <item experiencePoints="5" levelAvailable="13" name="indigo" price="7" source="field" time="120" type="crop"/>
+        <item experiencePoints="6" levelAvailable="13" name="white sugar" price="14" source="sugar mill" time="40" type="good">
+            <requiredResource amount="2" name="sugarcane"/>
+        </item>
+        <item experiencePoints="10" levelAvailable="14" name="carrot pie" price="23" source="pie oven" time="60" type="good">
+            <requiredResource amount="3" name="carrot"/>
+            <requiredResource amount="1" name="egg"/>
+            <requiredResource amount="2" name="wheat"/>
+        </item>
+        <item experiencePoints="6" levelAvailable="15" name="pumpkin" price="9" source="field" time="180" type="crop"/>
+        <item experiencePoints="19" levelAvailable="15" name="pumpkin pie" price="44" source="pie oven" time="120" type="good">
+            <requiredResource amount="1" name="egg"/>
+            <requiredResource amount="3" name="pumpkin"/>
+            <requiredResource amount="2" name="wheat"/>
+        </item>
+        <item experiencePoints="7" levelAvailable="15" name="apple" price="11" source="apple tree" time="960" type="tree crop"/>
+        <item experiencePoints="5" levelAvailable="16" name="wool" price="15" source="sheep" time="360" type="animal good">
+            <requiredResource amount="1" name="sheep feed"/>
+        </item>
+        <item experiencePoints="3" levelAvailable="16" name="sheep feed" price="4" source="feed mill" time="30" type="good">
+            <requiredResource amount="1" name="soybean"/>
+            <requiredResource amount="3" name="wheat"/>
+        </item>
+        <item experiencePoints="15" levelAvailable="16" name="buttered popcorn" price="35" source="popcorn pot" time="60" type="good">
+            <requiredResource amount="1" name="butter"/>
+            <requiredResource amount="2" name="corn"/>
+        </item>
+        <item experiencePoints="18" levelAvailable="17" name="sweater" price="42" source="loom" time="120" type="good">
+            <requiredResource amount="2" name="wool"/>
+        </item>
+        <item experiencePoints="6" levelAvailable="18" name="cotton" price="8" source="field" time="150" type="crop"/>
+        <item experiencePoints="26" levelAvailable="18" name="bacon pie" price="61" source="pie oven" time="180" type="good">
+            <requiredResource amount="3" name="bacon"/>
+            <requiredResource amount="1" name="egg"/>
+            <requiredResource amount="2" name="wheat"/>
+        </item>
+        <item experiencePoints="11" levelAvailable="18" name="syrup" price="25" source="sugar mill" time="90" type="good">
+            <requiredResource amount="4" name="sugarcane"/>
+        </item>
+        <item experiencePoints="13" levelAvailable="18" name="cotton fabric" price="30" source="loom" time="30" type="good">
+            <requiredResource amount="3" name="cotton"/>
+        </item>
+        <item experiencePoints="22" levelAvailable="18" name="hamburger" price="50" source="bbq grill" time="120" type="good">
+            <requiredResource amount="2" name="bacon"/>
+            <requiredResource amount="2" name="bread"/>
+        </item>
+        <item experiencePoints="9" levelAvailable="19" name="raspberry" price="13" source="raspberry bush" time="1080" type="tree crop"/>
+        <item experiencePoints="17" levelAvailable="19" name="raspberry muffin" price="39" source="bakery" time="45" type="good">
+            <requiredResource amount="1" name="egg"/>
+            <requiredResource amount="2" name="raspberry"/>
+            <requiredResource amount="2" name="wheat"/>
+        </item>
+        <item experiencePoints="13" levelAvailable="19" name="blue woolly hat" price="31" source="loom" time="60" type="good">
+            <requiredResource amount="1" name="indigo"/>
+            <requiredResource amount="1" name="wool"/>
+        </item>
+        <item experiencePoints="29" levelAvailable="19" name="cotton shirt" price="67" source="sewing machine" time="45" type="good">
+            <requiredResource amount="2" name="cotton fabric"/>
+        </item>
+        <item experiencePoints="22" levelAvailable="20" name="blue sweater" price="58" source="loom" time="180" type="good">
+            <requiredResource amount="2" name="indigo"/>
+            <requiredResource amount="2" name="wool"/>
+        </item>
+        <item experiencePoints="20" levelAvailable="21" name="carrot cake" price="46" source="cake oven" time="90" type="good">
+            <requiredResource amount="1" name="brown sugar"/>
+            <requiredResource amount="1" name="butter"/>
+            <requiredResource amount="2" name="carrot"/>
+        </item>
+        <item experiencePoints="37" levelAvailable="21" name="woolly chaps" price="86" source="sewing machine" time="90" type="good">
+            <requiredResource amount="1" name="cotton fabric"/>
+            <requiredResource amount="3" name="wool"/>
+        </item>
+        <item experiencePoints="13" levelAvailable="22" name="cherry" price="19" source="cherry tree" time="1620" type="tree crop"/>
+        <item experiencePoints="26" levelAvailable="23" name="cream cake" price="61" source="cake oven" time="180" type="good">
+            <requiredResource amount="1" name="cream"/>
+            <requiredResource amount="1" name="white sugar"/>
+            <requiredResource amount="5" name="wheat"/>
+        </item>
+        <item experiencePoints="31" levelAvailable="23" name="red berry cake" price="71" source="cake oven" time="60" type="good">
+            <requiredResource amount="2" name="cherry"/>
+            <requiredResource amount="1" name="egg"/>
+            <requiredResource amount="1" name="milk"/>
+            <requiredResource amount="1" name="raspberry"/>
+        </item>
+        <item experiencePoints="34" levelAvailable="24" name="cheesecake" price="79" source="cake oven" time="240" type="good">
+            <requiredResource amount="1" name="cheese"/>
+            <requiredResource amount="1" name="cookie"/>
+        </item>
+        <item experiencePoints="5" levelAvailable="24" name="silver ore" price="5" source="mine" time="0" type="ore"/>
+        <item experiencePoints="6" levelAvailable="24" name="gold ore" price="6" source="mine" time="0" type="ore"/>
+        <item experiencePoints="7" levelAvailable="24" name="platinum ore" price="9" source="mine" time="0" type="ore"/>
+        <item experiencePoints="14" levelAvailable="24" name="silver bar" price="41" source="smelter" time="480" type="good">
+            <requiredResource amount="3" name="silver ore"/>
+        </item>
+        <item experiencePoints="4" levelAvailable="25" name="chili pepper" price="10" source="field" time="240" type="crop"/>
+        <item experiencePoints="15" levelAvailable="25" name="chili popcorn" price="34" source="popcorn pot" time="120" type="good">
+            <requiredResource amount="2" name="chili pepper"/>
+            <requiredResource amount="2" name="corn"/>
+        </item>
+        <item experiencePoints="18" levelAvailable="25" name="gold bar" price="50" source="smelter" time="720" type="good">
+            <requiredResource amount="3" name="gold ore"/>
+        </item>
+        <item experiencePoints="21" levelAvailable="25" name="platinum bar" price="57" source="smelter" time="960" type="good">
+            <requiredResource amount="3" name="platinum ore"/>
+        </item>
+        <item experiencePoints="39" levelAvailable="25" name="violet dress" price="91" source="sewing machine" time="135" type="good">
+            <requiredResource amount="2" name="cotton fabric"/>
+            <requiredResource amount="1" name="indigo"/>
+            <requiredResource amount="1" name="raspberry"/>
+        </item>
+        <item experiencePoints="16" levelAvailable="26" name="blackberry" price="23" source="blackberry bush" time="1920" type="tree crop"/>
+        <item experiencePoints="27" levelAvailable="26" name="blackberry muffin" price="63" source="bakery" time="45" type="good">
+            <requiredResource amount="2" name="blackberry"/>
+            <requiredResource amount="2" name="egg"/>
+            <requiredResource amount="2" name="wheat"/>
+        </item>
+        <item experiencePoints="6" levelAvailable="26" name="carrot juice" price="13" source="juice press" time="30" type="good">
+            <requiredResource amount="3" name="carrot"/>
+        </item>
+        <item experiencePoints="4" levelAvailable="27" name="fish fillet" source="fish" time="0" type="other"/>
+        <item experiencePoints="27" levelAvailable="27" name="fish burger" price="63" source="bbq grill" time="120" type="good">
+            <requiredResource amount="2" name="bread"/>
+            <requiredResource amount="1" name="chili pepper"/>
+            <requiredResource amount="2" name="fish fillet"/>
+        </item>
+        <item experiencePoints="1" levelAvailable="27" name="red lure" source="lure workbench" time="90" type="lure"/>
+        <item experiencePoints="2" levelAvailable="27" name="green lure" source="lure workbench" time="75" type="lure"/>
+        <item experiencePoints="3" levelAvailable="27" name="blue lure" source="lure workbench" time="60" type="lure"/>
+        <item experiencePoints="4" levelAvailable="27" name="purple lure" source="lure workbench" time="45" type="lure"/>
+        <item experiencePoints="5" levelAvailable="27" name="gold lure" source="lure workbench" time="30" type="lure"/>
+        <item experiencePoints="32" levelAvailable="28" name="apple pie" price="75" source="pie oven" time="150" type="good">
+            <requiredResource amount="3" name="apple"/>
+            <requiredResource amount="1" name="egg"/>
+            <requiredResource amount="1" name="syrup"/>
+            <requiredResource amount="2" name="wheat"/>
+        </item>
+        <item experiencePoints="27" levelAvailable="28" name="fish pie" price="63" source="pie oven" time="120" type="good">
+            <requiredResource amount="1" name="egg"/>
+            <requiredResource amount="3" name="fish fillet"/>
+            <requiredResource amount="2" name="wheat"/>
+        </item>
+        <item experiencePoints="15" levelAvailable="28" name="apple juice" price="36" source="juice press" time="120" type="good">
+            <requiredResource amount="2" name="apple"/>
+        </item>
+        <item experiencePoints="20" levelAvailable="29" name="vanilla ice cream" price="48" source="ice cream maker" time="120" type="good">
+            <requiredResource amount="1" name="cream"/>
+            <requiredResource amount="1" name="milk"/>
+            <requiredResource amount="1" name="white sugar"/>
+        </item>
+        <item experiencePoints="8" levelAvailable="30" name="tomato" price="12" source="field" time="360" type="crop"/>
+        <item experiencePoints="14" levelAvailable="30" name="roasted tomato" price="33" source="bbq grill" time="90" type="good">
+            <requiredResource amount="2" name="tomato"/>
+        </item>
+        <item experiencePoints="26" levelAvailable="30" name="cherry juice" price="60" source="juice press" time="150" type="good">
+            <requiredResource amount="2" name="cherry"/>
+        </item>
+        <item experiencePoints="7" levelAvailable="30" name="fishing net" source="net maker" time="240" type="lure"/>
+        <item experiencePoints="7" levelAvailable="30" name="mystery net" source="net maker" time="180" type="lure"/>
+        <item experiencePoints="19" levelAvailable="31" name="tomato juice" price="45" source="juice press" time="90" type="good">
+            <requiredResource amount="3" name="tomato"/>
+        </item>
+        <item experiencePoints="24" levelAvailable="31" name="berry juice" price="57" source="juice press" time="180" type="good">
+            <requiredResource amount="1" name="blackberry"/>
+            <requiredResource amount="1" name="raspberry"/>
+        </item>
+        <item experiencePoints="3" levelAvailable="32" name="goat feed" price="4" source="feed mill" time="40" type="good">
+            <requiredResource amount="2" name="carrot"/>
+            <requiredResource amount="1" name="corn"/>
+            <requiredResource amount="1" name="wheat"/>
+        </item>
+        <item experiencePoints="6" levelAvailable="32" name="goat milk" price="18" source="goat" time="480" type="animal good">
+            <requiredResource amount="1" name="goat feed"/>
+        </item>
+        <item experiencePoints="19" levelAvailable="33" name="goat cheese" price="45" source="dairy" time="90" type="good">
+            <requiredResource amount="2" name="goat milk"/>
+        </item>
+        <item experiencePoints="23" levelAvailable="33" name="pizza" price="53" source="bakery" time="15" type="good">
+            <requiredResource amount="1" name="cheese"/>
+            <requiredResource amount="1" name="tomato"/>
+            <requiredResource amount="2" name="wheat"/>
+        </item>
+        <item experiencePoints="3" levelAvailable="33" name="coal" price="3" source="mine" time="0" type="ore"/>
+        <item experiencePoints="13" levelAvailable="33" name="refined coal" price="30" source="smelter" time="360" type="good">
+            <requiredResource amount="3" name="coal"/>
+        </item>
+        <item experiencePoints="42" levelAvailable="33" name="cherry popsicle" price="98" source="ice cream maker" time="180" type="good">
+            <requiredResource amount="1" name="cherry juice"/>
+            <requiredResource amount="1" name="syrup"/>
+        </item>
+        <item experiencePoints="10" levelAvailable="34" name="strawberry" price="14" source="field" time="480" type="crop"/>
+        <item experiencePoints="26" levelAvailable="34" name="feta pie" price="62" source="pie oven" time="90" type="good">
+            <requiredResource amount="1" name="egg"/>
+            <requiredResource amount="1" name="goat cheese"/>
+            <requiredResource amount="2" name="wheat"/>
+        </item>
+        <item experiencePoints="4" levelAvailable="34" name="iron ore" price="4" source="mine" time="0" type="ore"/>
+        <item experiencePoints="15" levelAvailable="34" name="iron bar" price="36" source="smelter" time="420" type="good">
+            <requiredResource amount="3" name="iron ore"/>
+        </item>
+        <item experiencePoints="40" levelAvailable="34" name="strawberry ice cream" price="92" source="ice cream maker" time="240" type="good">
+            <requiredResource amount="1" name="cream"/>
+            <requiredResource amount="1" name="milk"/>
+            <requiredResource amount="3" name="strawberry"/>
+            <requiredResource amount="1" name="white sugar"/>
+        </item>
+        <item experiencePoints="7" levelAvailable="35" name="potato" price="10" source="field" time="220" type="crop"/>
+        <item experiencePoints="38" levelAvailable="35" name="strawberry cake" price="88" source="cake oven" time="180" type="good">
+            <requiredResource amount="1" name="cream"/>
+            <requiredResource amount="2" name="strawberry"/>
+            <requiredResource amount="3" name="wheat"/>
+            <requiredResource amount="1" name="white sugar"/>
+        </item>
+        <item experiencePoints="36" levelAvailable="35" name="baked potato" price="83" source="bbq grill" time="35" type="good">
+            <requiredResource amount="1" name="cheese"/>
+            <requiredResource amount="1" name="chili pepper"/>
+            <requiredResource amount="1" name="cream"/>
+            <requiredResource amount="2" name="potato"/>
+        </item>
+        <item experiencePoints="26" levelAvailable="35" name="apple jam" price="61" source="jam maker" time="360" type="good">
+            <requiredResource amount="3" name="apple"/>
+        </item>
+        <item experiencePoints="16" levelAvailable="36" name="cacao" price="24" source="cacao tree" time="2040" type="tree crop"/>
+        <item experiencePoints="38" levelAvailable="36" name="chocolate cake" price="89" source="cake oven" time="120" type="good">
+            <requiredResource amount="1" name="brown sugar"/>
+            <requiredResource amount="1" name="butter"/>
+            <requiredResource amount="2" name="cacao"/>
+        </item>
+        <item experiencePoints="44" levelAvailable="36" name="casserole" price="102" source="pie oven" time="120" type="good">
+            <requiredResource amount="2" name="bacon"/>
+            <requiredResource amount="1" name="cheese"/>
+            <requiredResource amount="2" name="egg"/>
+            <requiredResource amount="2" name="potato"/>
+        </item>
+        <item experiencePoints="29" levelAvailable="36" name="raspberry jam" price="70" source="jam maker" time="420" type="good">
+            <requiredResource amount="3" name="raspberry"/>
+        </item>
+        <item experiencePoints="27" levelAvailable="37" name="spicy pizza" price="63" source="bakery" time="15" type="good">
+            <requiredResource amount="1" name="cheese"/>
+            <requiredResource amount="1" name="chili pepper"/>
+            <requiredResource amount="1" name="tomato"/>
+            <requiredResource amount="2" name="wheat"/>
+        </item>
+        <item experiencePoints="46" levelAvailable="37" name="blackberry jam" price="108" source="jam maker" time="480" type="good">
+            <requiredResource amount="3" name="blackberry"/>
+        </item>
+        <item experiencePoints="32" levelAvailable="38" name="potato feta cake" price="86" source="cake oven" time="120" type="good">
+            <requiredResource amount="4" name="egg"/>
+            <requiredResource amount="1" name="goat cheese"/>
+            <requiredResource amount="1" name="potato"/>
+        </item>
+        <item experiencePoints="39" levelAvailable="38" name="cherry jam" price="93" source="jam maker" time="420" type="good">
+            <requiredResource amount="3" name="cherry"/>
+        </item>
+        <item experiencePoints="50" levelAvailable="38" name="bracelet" price="143" source="jeweler" time="120" type="good">
+            <requiredResource amount="1" name="gold bar"/>
+            <requiredResource amount="2" name="silver bar"/>
+        </item>
+        <item experiencePoints="34" levelAvailable="39" name="potato bread" price="79" source="bakery" time="45" type="good">
+            <requiredResource amount="1" name="butter"/>
+            <requiredResource amount="3" name="egg"/>
+            <requiredResource amount="2" name="potato"/>
+            <requiredResource amount="1" name="white sugar"/>
+        </item>
+        <item experiencePoints="34" levelAvailable="39" name="shepherd's pie" price="78" source="pie oven" time="100" type="good">
+            <requiredResource amount="2" name="bacon"/>
+            <requiredResource amount="2" name="carrot"/>
+            <requiredResource amount="2" name="potato"/>
+            <requiredResource amount="2" name="pumpkin"/>
+        </item>
+        <item experiencePoints="41" levelAvailable="39" name="chocolate ice cream" price="95" source="ice cream maker" time="150" type="good">
+            <requiredResource amount="1" name="cream"/>
+            <requiredResource amount="2" name="cacao"/>
+            <requiredResource amount="1" name="milk"/>
+            <requiredResource amount="1" name="white sugar"/>
+        </item>
+        <item experiencePoints="8" levelAvailable="39" name="honeycomb" source="beehive tree" time="0" type="other"/>
+        <item experiencePoints="72" levelAvailable="39" name="necklace" price="202" source="jeweler" time="180" type="good">
+            <requiredResource amount="1" name="gold bar"/>
+            <requiredResource amount="1" name="platinum bar"/>
+            <requiredResource amount="2" name="silver bar"/>
+        </item>
+        <item experiencePoints="19" levelAvailable="39" name="honey" price="43" source="honey extractor" time="20" type="good">
+            <requiredResource amount="2" name="honeycomb"/>
+        </item>
+        <item experiencePoints="43" levelAvailable="40" name="honey popcorn" price="100" source="popcorn pot" time="90" type="good">
+            <requiredResource amount="2" name="corn"/>
+            <requiredResource amount="2" name="honey"/>
+        </item>
+        <item experiencePoints="84" levelAvailable="40" name="diamond ring" price="229" source="jeweler" time="240" type="good">
+            <requiredResource amount="1" type="diamond"/>
+            <requiredResource amount="2" name="gold bar"/>
+            <requiredResource amount="2" name="platinum bar"/>
+        </item>
+        <item experiencePoints="29" levelAvailable="41" name="fish and chips" price="68" source="bbq grill" time="90" type="good">
+            <requiredResource amount="2" name="fish fillet"/>
+            <requiredResource amount="3" name="potato"/>
+        </item>
+        <item experiencePoints="79" levelAvailable="41" name="iron bracelet" price="183" source="jeweler" time="90" type="good">
+            <requiredResource amount="2" name="iron bar"/>
+            <requiredResource amount="2" name="refined coal"/>
+            <requiredResource amount="1" name="silver bar"/>
+        </item>
+        <item experiencePoints="12" levelAvailable="42" name="coffee bean" price="18" source="coffee bush" time="1500" type="tree crop"/>
+        <item experiencePoints="29" levelAvailable="42" name="espresso" price="69" source="coffee kiosk" time="5" type="good">
+            <requiredResource amount="3" name="coffee bean"/>
+            <requiredResource amount="1" name="white sugar"/>
+        </item>
+        <item experiencePoints="57" levelAvailable="42" name="honey apple cake" price="134" source="cake oven" time="200" type="good">
+            <requiredResource amount="2" name="apple"/>
+            <requiredResource amount="2" name="egg"/>
+            <requiredResource amount="2" name="honey"/>
+            <requiredResource amount="2" name="wheat"/>
+        </item>
+        <item experiencePoints="26" levelAvailable="43" name="caffè latte" price="61" source="coffee kiosk" time="10" type="good">
+            <requiredResource amount="2" name="coffee bean"/>
+            <requiredResource amount="1" name="milk"/>
+            <requiredResource amount="1" name="white sugar"/>
+        </item>
+        <item experiencePoints="29" levelAvailable="44" name="chocolate popcorn" price="69" source="popcorn pot" time="150" type="good">
+            <requiredResource amount="2" name="cacao"/>
+            <requiredResource amount="2" name="corn"/>
+        </item>
+        <item experiencePoints="5" levelAvailable="44" name="lobster trap" source="net maker" time="120" type="lure"/>
+        <item experiencePoints="24" levelAvailable="44" name="lobster tail" price="56" source="lobster pool" time="360" type="animal good">
+            <requiredResource amount="1" name="lobster trap"/>
+        </item>
+        <item experiencePoints="32" levelAvailable="45" name="frutti di mare pizza" price="112" source="bakery" time="15" type="good">
+            <requiredResource amount="1" name="cheese"/>
+            <requiredResource amount="1" name="fish fillet"/>
+            <requiredResource amount="1" name="lobster tail"/>
+            <requiredResource amount="2" name="wheat"/>
+        </item>
+        <item experiencePoints="35" levelAvailable="45" name="caffè mocha" price="81" source="coffee kiosk" time="15" type="good">
+            <requiredResource amount="1" name="coffee bean"/>
+            <requiredResource amount="1" name="cream"/>
+            <requiredResource amount="2" name="cacao"/>
+        </item>
+        <item experiencePoints="16" levelAvailable="46" name="raspberry mocha" price="72" source="coffee kiosk" time="30" type="good">
+            <requiredResource amount="1" name="cacao"/>
+            <requiredResource amount="1" name="coffee bean"/>
+            <requiredResource amount="1" name="cream"/>
+            <requiredResource amount="1" name="raspberry"/>
+        </item>
+        <item experiencePoints="73" levelAvailable="46" name="lobster soup" price="170" source="soup kitchen" time="150" type="good">
+            <requiredResource amount="2" name="chili pepper"/>
+            <requiredResource amount="1" name="cream"/>
+            <requiredResource amount="2" name="lobster tail"/>
+            <requiredResource amount="1" name="tomato"/>
+        </item>
+        <item experiencePoints="32" levelAvailable="47" name="hot chocolate" price="88" source="coffee kiosk" time="25" type="good">
+            <requiredResource amount="2" name="cacao"/>
+            <requiredResource amount="1" name="cream"/>
+            <requiredResource amount="1" name="milk"/>
+            <requiredResource amount="1" name="white sugar"/>
+        </item>
+        <item experiencePoints="57" levelAvailable="47" name="tomato soup" price="133" source="soup kitchen" time="90" type="good">
+            <requiredResource amount="1" name="chili pepper"/>
+            <requiredResource amount="1" name="goat cheese"/>
+            <requiredResource amount="1" name="tomato juice"/>
+            <requiredResource amount="2" name="tomato"/>
+        </item>
+        <item experiencePoints="34" levelAvailable="48" name="red scarf" price="80" source="loom" time="150" type="good">
+            <requiredResource amount="2" name="strawberry"/>
+            <requiredResource amount="2" name="wool"/>
+        </item>
+        <item experiencePoints="50" levelAvailable="48" name="lobster skewer" price="116" source="bbq grill" time="40" type="good">
+            <requiredResource amount="1" name="chili pepper"/>
+            <requiredResource amount="1" name="honey"/>
+            <requiredResource amount="1" name="lobster tail"/>
+        </item>
+        <item experiencePoints="28" levelAvailable="48" name="beeswax" price="65" source="honey extractor" time="45" type="good">
+            <requiredResource amount="3" name="honeycomb"/>
+        </item>
+        <item experiencePoints="44" levelAvailable="48" name="strawberry candle" price="103" source="candle maker" time="120" type="good">
+            <requiredResource amount="1" name="beeswax"/>
+            <requiredResource amount="2" name="strawberry"/>
+        </item>
+        <item experiencePoints="47" levelAvailable="49" name="pumpkin soup" price="109" source="soup kitchen" time="120" type="good">
+            <requiredResource amount="1" name="butter"/>
+            <requiredResource amount="2" name="carrot"/>
+            <requiredResource amount="1" name="honey"/>
+            <requiredResource amount="3" name="pumpkin"/>
+        </item>
+        <item experiencePoints="32" levelAvailable="50" name="strawberry jam" price="75" source="jam maker" time="450" type="good">
+            <requiredResource amount="3" name="strawberry"/>
+        </item>
+        <item experiencePoints="3" levelAvailable="50" name="duck trap" source="net maker" time="60" type="lure"/>
+        <item experiencePoints="17" levelAvailable="50" name="duck feather" price="39" source="duck salon" time="180" type="animal good">
+            <requiredResource amount="1" name="duck trap"/>
+        </item>
+        <item experiencePoints="31" levelAvailable="51" name="caramel apple" price="71" source="candy machine" time="120" type="good">
+            <requiredResource amount="1" name="apple"/>
+            <requiredResource amount="2" name="syrup"/>
+        </item>
+        <item experiencePoints="81" levelAvailable="51" name="pillow" price="188" source="sewing machine" time="180" type="good">
+            <requiredResource amount="2" name="cotton fabric"/>
+            <requiredResource amount="3" name="duck feather"/>
+        </item>
+        <item experiencePoints="21" levelAvailable="52" name="toffee" price="49" source="candy machine" time="90" type="good">
+            <requiredResource amount="1" name="butter"/>
+            <requiredResource amount="1" name="wheat"/>
+            <requiredResource amount="1" name="white sugar"/>
+        </item>
+        <item experiencePoints="43" levelAvailable="52" name="raspberry candle" price="100" source="candle maker" time="105" type="good">
+            <requiredResource amount="1" name="beeswax"/>
+            <requiredResource amount="2" name="raspberry"/>
+        </item>
+        <item experiencePoints="35" levelAvailable="53" name="fish soup" price="83" source="soup kitchen" time="180" type="good">
+            <requiredResource amount="1" name="carrot"/>
+            <requiredResource amount="2" name="fish fillet"/>
+            <requiredResource amount="1" name="milk"/>
+            <requiredResource amount="3" name="potato"/>
+        </item>
+        <item experiencePoints="19" levelAvailable="54" name="soy sauce" price="43" source="sauce maker" time="180" type="good">
+            <requiredResource amount="9" name="soybean"/>
+            <requiredResource amount="1" name="wheat"/>
+        </item>
+        <item experiencePoints="55" levelAvailable="54" name="chocolate" price="128" source="candy machine" time="1200" type="good">
+            <requiredResource amount="3" name="cacao"/>
+            <requiredResource amount="1" name="cream"/>
+            <requiredResource amount="1" name="white sugar"/>
+        </item>
+        <item experiencePoints="3" levelAvailable="56" name="rice" price="5" source="field" time="45" type="crop"/>
+        <item experiencePoints="58" levelAvailable="56" name="sushi roll" price="136" source="sushi bar" time="60" type="good">
+            <requiredResource amount="1" name="fish fillet"/>
+            <requiredResource amount="15" name="rice"/>
+            <requiredResource amount="1" name="soy sauce"/>
+        </item>
+        <item experiencePoints="17" levelAvailable="57" name="olive" price="23" source="olive tree" time="1440" type="tree crop"/>
+        <item experiencePoints="41" levelAvailable="57" name="lollipop" price="95" source="candy machine" time="720" type="good">
+            <requiredResource amount="1" name="cherry"/>
+            <requiredResource amount="2" name="strawberry"/>
+            <requiredResource amount="1" name="syrup"/>
+        </item>
+        <item experiencePoints="7" levelAvailable="58" name="lettuce" price="9" source="field" time="210" type="crop"/>
+        <item experiencePoints="89" levelAvailable="58" name="feta salad" price="207" source="salad bar" time="90" type="good">
+            <requiredResource amount="2" name="goat cheese"/>
+            <requiredResource amount="3" name="lettuce"/>
+            <requiredResource amount="2" name="olive"/>
+            <requiredResource amount="1" name="roasted tomato"/>
+        </item>
+        <item experiencePoints="76" levelAvailable="59" name="lobster sushi" price="177" source="sushi bar" time="60" type="good">
+            <requiredResource amount="1" name="lobster tail"/>
+            <requiredResource amount="15" name="rice"/>
+            <requiredResource amount="1" name="soy sauce"/>
+        </item>
+        <item experiencePoints="131" levelAvailable="59" name="blanket" price="305" source="sewing machine" time="210" type="good">
+            <requiredResource amount="3" name="cotton fabric"/>
+            <requiredResource amount="5" name="duck feather"/>
+            <requiredResource amount="1" name="pumpkin"/>
+        </item>
+        <item experiencePoints="81" levelAvailable="60" name="jelly beans" price="190" source="candy machine" time="1440" type="good">
+            <requiredResource amount="1" name="blackberry jam"/>
+            <requiredResource amount="1" name="raspberry jam"/>
+            <requiredResource amount="1" name="white sugar"/>
+        </item>
+        <item experiencePoints="33" levelAvailable="60" name="olive oil" price="77" source="sauce maker" time="45" type="good">
+            <requiredResource amount="3" name="olive"/>
+        </item>
+        <item experiencePoints="63" levelAvailable="61" name="veggie bagel" price="148" source="sandwich bar" time="40" type="good">
+            <requiredResource amount="2" name="bread"/>
+            <requiredResource amount="3" name="lettuce"/>
+            <requiredResource amount="1" name="olive oil"/>
+            <requiredResource amount="2" name="tomato"/>
+        </item>
+        <item experiencePoints="44" levelAvailable="62" name="mayonnaise" price="102" source="sauce maker" time="15" type="good">
+            <requiredResource amount="4" name="egg"/>
+            <requiredResource amount="1" name="olive oil"/>
+        </item>
+        <item experiencePoints="86" levelAvailable="62" name="blt salad" price="201" source="salad bar" time="105" type="good">
+            <requiredResource amount="2" name="bacon"/>
+            <requiredResource amount="3" name="lettuce"/>
+            <requiredResource amount="1" name="mayonnaise"/>
+            <requiredResource amount="1" name="roasted tomato"/>
+        </item>
+        <item experiencePoints="66" levelAvailable="63" name="egg sushi" price="153" source="sushi bar" time="120" type="good">
+            <requiredResource amount="1" name="brown sugar"/>
+            <requiredResource amount="4" name="egg"/>
+            <requiredResource amount="15" name="rice"/>
+            <requiredResource amount="1" name="soy sauce"/>
+        </item>
+        <item experiencePoints="91" levelAvailable="64" name="seafood salad" price="212" source="salad bar" time="120" type="good">
+            <requiredResource amount="1" name="fish fillet"/>
+            <requiredResource amount="3" name="lettuce"/>
+            <requiredResource amount="1" name="lobster tail"/>
+            <requiredResource amount="1" name="mayonnaise"/>
+        </item>
+        <item experiencePoints="65" levelAvailable="64" name="berry smoothie" price="152" source="smoothie mixer" time="75" type="good">
+            <requiredResource amount="3" name="blackberry"/>
+            <requiredResource amount="3" name="strawberry"/>
+            <requiredResource amount="3" name="raspberry"/>
+        </item>
+        <item experiencePoints="77" levelAvailable="65" name="bacon toast" price="180" source="sandwich bar" time="100" type="good">
+            <requiredResource amount="2" name="bacon"/>
+            <requiredResource amount="2" name="bread"/>
+            <requiredResource amount="3" name="lettuce"/>
+            <requiredResource amount="1" name="mayonnaise"/>
+        </item>
+        <item experiencePoints="18" levelAvailable="66" name="lemon" price="26" source="lemon tree" time="1740" type="tree crop"/>
+        <item experiencePoints="45" levelAvailable="66" name="lemon curd" price="105" source="sauce maker" time="25" type="good">
+            <requiredResource amount="1" name="butter"/>
+            <requiredResource amount="2" name="egg"/>
+            <requiredResource amount="2" name="lemon"/>
+            <requiredResource amount="1" name="white sugar"/>
+        </item>
+        <item experiencePoints="69" levelAvailable="66" name="egg sandwich" price="162" source="sandwich bar" time="80" type="good">
+            <requiredResource amount="2" name="bread"/>
+            <requiredResource amount="2" name="egg"/>
+            <requiredResource amount="3" name="lettuce"/>
+            <requiredResource amount="1" name="mayonnaise"/>
+        </item>
+        <item experiencePoints="38" levelAvailable="66" name="green smoothie" price="89" source="smoothie mixer" time="45" type="good">
+            <requiredResource amount="1" name="apple"/>
+            <requiredResource amount="1" name="lemon"/>
+            <requiredResource amount="5" name="lettuce"/>
+        </item>
+        <item experiencePoints="5" levelAvailable="67" name="fresh pasta" price="12" source="pasta maker" time="15" type="good">
+            <requiredResource amount="1" name="egg"/>
+            <requiredResource amount="2" name="wheat"/>
+        </item>
+        <item experiencePoints="90" levelAvailable="67" name="pasta salad" price="211" source="salad bar" time="150" type="good">
+            <requiredResource amount="4" name="fresh pasta"/>
+            <requiredResource amount="2" name="lemon"/>
+            <requiredResource amount="1" name="olive oil"/>
+            <requiredResource amount="2" name="tomato"/>
+        </item>
+        <item experiencePoints="53" levelAvailable="67" name="lemon pie" price="124" source="pie oven" time="135" type="good">
+            <requiredResource amount="1" name="egg"/>
+            <requiredResource amount="1" name="lemon curd"/>
+            <requiredResource amount="2" name="wheat"/>
+        </item>
+        <item experiencePoints="8" levelAvailable="68" name="onion" price="11" source="field" time="300" type="crop"/>
+        <item experiencePoints="23" levelAvailable="68" name="grilled onion" price="53" source="bbq grill" time="60" type="good">
+            <requiredResource amount="1" name="butter"/>
+            <requiredResource amount="2" name="onion"/>
+        </item>
+        <item experiencePoints="107" levelAvailable="68" name="lemon cake" price="249" source="cake oven" time="150" type="good">
+            <requiredResource amount="1" name="cream"/>
+            <requiredResource amount="2" name="egg"/>
+            <requiredResource amount="2" name="lemon curd"/>
+            <requiredResource amount="3" name="wheat"/>
+        </item>
+        <item experiencePoints="27" levelAvailable="69" name="tomato sauce" price="64" source="sauce maker" time="30" type="good">
+            <requiredResource amount="1" name="brown sugar"/>
+            <requiredResource amount="1" name="lemon"/>
+            <requiredResource amount="2" name="tomato"/>
+        </item>
+        <item experiencePoints="31" levelAvailable="69" name="honey toast" price="71" source="sandwich bar" time="60" type="good">
+            <requiredResource amount="1" name="bread"/>
+            <requiredResource amount="1" name="egg"/>
+            <requiredResource amount="1" name="honey"/>
+            <requiredResource amount="1" name="milk"/>
+        </item>
+        <item experiencePoints="42" levelAvailable="70" name="yogurt smoothie" price="97" source="smoothie mixer" time="60" type="good">
+            <requiredResource amount="1" name="cherry"/>
+            <requiredResource amount="1" name="cream"/>
+            <requiredResource amount="2" name="raspberry"/>
+            <requiredResource amount="1" name="white sugar"/>
+        </item>
+        <item experiencePoints="56" levelAvailable="70" name="cloche hat" price="130" source="hat maker" time="120" type="good">
+            <requiredResource amount="2" name="strawberry"/>
+            <requiredResource amount="6" name="wool"/>
+        </item>
+        <item experiencePoints="19" levelAvailable="71" name="orange" price="27" source="orange tree" time="1860" type="tree crop"/>
+        <item experiencePoints="28" levelAvailable="71" name="orange juice" price="65" source="juice press" time="120" type="good">
+            <requiredResource amount="2" name="orange"/>
+        </item>
+        <item experiencePoints="36" levelAvailable="72" name="onion soup" price="91" source="soup kitchen" time="150" type="good">
+            <requiredResource amount="2" name="bread"/>
+            <requiredResource amount="1" name="cheese"/>
+            <requiredResource amount="3" name="onion"/>
+        </item>
+        <item experiencePoints="55" levelAvailable="72" name="lemon candle" price="127" source="candle maker" time="135" type="good">
+            <requiredResource amount="1" name="beeswax"/>
+            <requiredResource amount="2" name="lemon"/>
+        </item>
+        <item experiencePoints="74" levelAvailable="72" name="top hat" price="172" source="hat maker" time="210" type="good">
+            <requiredResource amount="3" name="cotton fabric"/>
+            <requiredResource amount="1" name="duck feather"/>
+            <requiredResource amount="1" name="refined coal"/>
+        </item>
+        <item experiencePoints="57" levelAvailable="72" name="gnocchi" price="132" source="pasta kitchen" time="80" type="good">
+            <requiredResource amount="4" name="potato"/>
+            <requiredResource amount="3" name="tomato"/>
+            <requiredResource amount="2" name="wheat"/>
+            <requiredResource amount="2" name="butter"/>
+        </item>
+        <item experiencePoints="12" levelAvailable="73" name="rice noodle" price="28" source="pasta maker" time="20" type="good">
+            <requiredResource amount="5" name="rice"/>
+        </item>
+        <item experiencePoints="52" levelAvailable="73" name="noodle soup" price="120" source="soup kitchen" time="120" type="good">
+            <requiredResource amount="2" name="carrot"/>
+            <requiredResource amount="1" name="chili pepper"/>
+            <requiredResource amount="2" name="egg"/>
+            <requiredResource amount="3" name="rice noodle"/>
+        </item>
+        <item experiencePoints="54" levelAvailable="74" name="marmalade" price="127" source="jam maker" time="510" type="good">
+            <requiredResource amount="3" name="orange"/>
+        </item>
+        <item experiencePoints="66" levelAvailable="74" name="sun hat" price="155" source="hat maker" time="150" type="good">
+            <requiredResource amount="2" name="duck feather"/>
+            <requiredResource amount="1" name="indigo"/>
+            <requiredResource amount="1" name="raspberry"/>
+            <requiredResource amount="3" name="wool"/>
+        </item>
+        <item experiencePoints="63" levelAvailable="74" name="veggie lasagna" price="148" source="pasta kitchen" time="100" type="good">
+            <requiredResource amount="1" name="tomato sauce"/>
+            <requiredResource amount="3" name="fresh pasta"/>
+            <requiredResource amount="1" name="carrot"/>
+            <requiredResource amount="1" name="cheese"/>
+        </item>
+        <item experiencePoints="44" levelAvailable="75" name="hot dog" price="103" source="hot dog stand" time="30" type="good">
+            <requiredResource amount="2" name="bacon"/>
+            <requiredResource amount="1" name="bread"/>
+            <requiredResource amount="1" name="tomato sauce"/>
+        </item>
+        <item experiencePoints="20" levelAvailable="76" name="peach" price="28" source="peach tree" time="1800" type="tree crop"/>
+        <item experiencePoints="52" levelAvailable="76" name="peach tart" price="121" source="pie oven" time="150" type="good">
+            <requiredResource amount="1" name="cream"/>
+            <requiredResource amount="2" name="egg"/>
+            <requiredResource amount="3" name="peach"/>
+            <requiredResource amount="2" name="wheat"/>
+        </item>
+        <item experiencePoints="44" levelAvailable="76" name="tofu dog" price="102" source="hot dog stand" time="45" type="good">
+            <requiredResource amount="3" name="lettuce"/>
+            <requiredResource amount="6" name="soybean"/>
+            <requiredResource amount="4" name="tomato"/>
+        </item>
+        <item experiencePoints="30" levelAvailable="77" name="salsa" price="70" source="sauce maker" time="20" type="good">
+            <requiredResource amount="2" name="chili pepper"/>
+            <requiredResource amount="2" name="onion"/>
+            <requiredResource amount="2" name="tomato"/>
+        </item>
+        <item experiencePoints="47" levelAvailable="77" name="taco" price="110" source="taco kitchen" time="45" type="good">
+            <requiredResource amount="1" name="corn bread"/>
+            <requiredResource amount="1" name="bacon"/>
+            <requiredResource amount="1" name="salsa"/>
+        </item>
+        <item experiencePoints="48" levelAvailable="78" name="orange sorbet" price="111" source="ice cream maker" time="210" type="good">
+            <requiredResource amount="1" name="honey"/>
+            <requiredResource amount="2" name="orange"/>
+        </item>
+        <item experiencePoints="63" levelAvailable="78" name="corn dog" price="147" source="hot dog stand" time="60" type="good">
+            <requiredResource amount="4" name="bacon"/>
+            <requiredResource amount="4" name="corn"/>
+            <requiredResource amount="1" name="olive oil"/>
+        </item>
+        <item experiencePoints="31" levelAvailable="78" name="potato soup" price="71" source="soup kitchen" time="150" type="good">
+            <requiredResource amount="1" name="milk"/>
+            <requiredResource amount="2" name="onion"/>
+            <requiredResource amount="3" name="potato"/>
+        </item>
+        <item experiencePoints="44" levelAvailable="79" name="fish taco" price="109" source="taco kitchen" time="90" type="good">
+            <requiredResource amount="2" name="chili pepper"/>
+            <requiredResource amount="2" name="corn bread"/>
+            <requiredResource amount="1" name="fish fillet"/>
+            <requiredResource amount="1" name="lemon"/>
+        </item>
+        <item experiencePoints="55" levelAvailable="79" name="peach jam" price="129" source="jam maker" time="480" type="good">
+            <requiredResource amount="3" name="peach"/>
+        </item>
+        <item experiencePoints="76" levelAvailable="79" name="lobster pasta" price="177" source="pasta kitchen" time="120" type="good">
+            <requiredResource amount="1" name="lobster tail"/>
+            <requiredResource amount="2" name="cream"/>
+            <requiredResource amount="3" name="fresh pasta"/>
+            <requiredResource amount="4" name="tomato"/>
+        </item>
+        <item experiencePoints="9" levelAvailable="80" name="tea leaf" price="12" source="field" time="390" type="crop"/>
+        <item experiencePoints="29" levelAvailable="80" name="green tea" price="67" source="tea stand" time="30" type="good">
+            <requiredResource amount="5" name="tea leaf"/>
+        </item>
+        <item experiencePoints="36" levelAvailable="80" name="onion dog" price="85" source="hot dog stand" time="75" type="good">
+            <requiredResource amount="2" name="bacon"/>
+            <requiredResource amount="1" name="bread"/>
+            <requiredResource amount="1" name="chili pepper"/>
+            <requiredResource amount="3" name="onion"/>
+        </item>
+        <item experiencePoints="23" levelAvailable="81" name="milk tea" price="53" source="tea stand" time="45" type="good">
+            <requiredResource amount="1" name="milk"/>
+            <requiredResource amount="3" name="tea leaf"/>
+        </item>
+        <item experiencePoints="29" levelAvailable="82" name="quesadilla" price="67" source="taco kitchen" time="60" type="good">
+            <requiredResource amount="1" name="cheese"/>
+            <requiredResource amount="2" name="chili pepper"/>
+            <requiredResource amount="4" name="wheat"/>
+        </item>
+        <item experiencePoints="71" levelAvailable="82" name="fruit salad" price="166" source="salad bar" time="120" type="good">
+            <requiredResource amount="2" name="blackberry"/>
+            <requiredResource amount="1" name="honey"/>
+            <requiredResource amount="1" name="orange"/>
+            <requiredResource amount="3" name="strawberry"/>
+        </item>
+        <item experiencePoints="54" levelAvailable="83" name="peach ice cream" price="125" source="ice cream maker" time="180" type="good">
+            <requiredResource amount="1" name="cream"/>
+            <requiredResource amount="1" name="honey"/>
+            <requiredResource amount="2" name="peach"/>
+        </item>
+        <item experiencePoints="37" levelAvailable="83" name="honey tea" price="87" source="tea stand" time="40" type="good">
+            <requiredResource amount="1" name="honey"/>
+            <requiredResource amount="3" name="tea leaf"/>
+        </item>
+        <item experiencePoints="66" levelAvailable="84" name="summer salad" price="155" source="salad bar" time="180" type="good">
+            <requiredResource amount="1" name="goat cheese"/>
+            <requiredResource amount="3" name="onion"/>
+            <requiredResource amount="1" name="peach"/>
+            <requiredResource amount="3" name="tomato"/>
+        </item>
+        <item experiencePoints="6" levelAvailable="84" name="grape" price="9" source="field" time="180" type="crop"/>
+        <item experiencePoints="13" levelAvailable="84" name="grape juice" price="29" source="juice press" time="150" type="good">
+            <requiredResource amount="2" name="grape"/>
+        </item>
+        <item experiencePoints="19" levelAvailable="85" name="grape jam" price="45" source="jam maker" time="390" type="good">
+            <requiredResource amount="3" name="grape"/>
+        </item>
+        <item experiencePoints="29" levelAvailable="86" name="lemon tea" price="67" source="tea stand" time="20" type="good">
+            <requiredResource amount="1" name="lemon"/>
+            <requiredResource amount="3" name="tea leaf"/>
+        </item>
+        <item experiencePoints="52" levelAvailable="87" name="nachos" price="120" source="taco kitchen" time="75" type="good">
+            <requiredResource amount="1" name="cheese"/>
+            <requiredResource amount="4" name="corn"/>
+            <requiredResource amount="1" name="salsa"/>
+        </item>
+        <item experiencePoints="60" levelAvailable="88" name="mixed smoothie" price="140" source="smoothie mixer" time="30" type="good">
+            <requiredResource amount="1" name="lemon"/>
+            <requiredResource amount="2" name="orange"/>
+            <requiredResource amount="2" name="peach"/>
+        </item>
+        <item experiencePoints="20" levelAvailable="88" name="banana" price="29" source="banana tree" time="1620" type="tree crop"/>
+        <item experiencePoints="33" levelAvailable="88" name="iced banana latte" price="77" source="coffee kiosk" time="20" type="good">
+            <requiredResource amount="1" name="banana"/>
+            <requiredResource amount="2" name="coffee bean"/>
+            <requiredResource amount="1" name="milk"/>
+        </item>
+        <item experiencePoints="30" levelAvailable="89" name="orange tea" price="71" source="tea stand" time="40" type="good">
+            <requiredResource amount="1" name="orange"/>
+            <requiredResource amount="3" name="tea leaf"/>
+        </item>
+        <item experiencePoints="54" levelAvailable="89" name="fruit cake" price="125" source="cake oven" time="180" type="good">
+            <requiredResource amount="2" name="cherry"/>
+            <requiredResource amount="2" name="grape"/>
+            <requiredResource amount="2" name="orange"/>
+            <requiredResource amount="3" name="wheat"/>
+        </item>
+        <item experiencePoints="50" levelAvailable="91" name="banana bread" price="118" source="bakery" time="30" type="good">
+            <requiredResource amount="3" name="banana"/>
+            <requiredResource amount="1" name="egg"/>
+            <requiredResource amount="2" name="grape"/>
+            <requiredResource amount="3" name="wheat"/>
+        </item>
+        <item experiencePoints="30" levelAvailable="92" name="iced tea" price="70" source="tea stand" time="30" type="good">
+            <requiredResource amount="1" name="peach"/>
+            <requiredResource amount="3" name="tea leaf"/>
+        </item>
+        <item experiencePoints="36" levelAvailable="92" name="goat cheese toast" price="84" source="sandwich bar" time="50" type="good">
+            <requiredResource amount="1" name="bread"/>
+            <requiredResource amount="1" name="goat cheese"/>
+            <requiredResource amount="3" name="grape"/>
+        </item>
+        <item experiencePoints="42" levelAvailable="94" name="banana pancakes" price="98" source="bbq grill" time="60" type="good">
+            <requiredResource amount="1" name="banana"/>
+            <requiredResource amount="2" name="blackberry"/>
+            <requiredResource amount="1" name="cream"/>
+            <requiredResource amount="3" name="wheat"/>
+        </item>
+        <item experiencePoints="48" levelAvailable="96" name="banana split" price="112" source="ice cream maker" time="210" type="good">
+            <requiredResource amount="1" name="banana"/>
+            <requiredResource amount="3" name="cherry"/>
+            <requiredResource amount="1" name="cream"/>
+        </item>
+    </itemList>
+    <productionBuildingList>
+        <productionBuilding buildTime="10" cost="20" experiencePoints="3" initialSlots="2" levelAvailable="2" name="bakery"/>
+        <productionBuilding buildTime="8" cost="730" experiencePoints="14" initialSlots="2" levelAvailable="9" name="bbq grill"/>
+        <productionBuilding buildTime="3600" cost="12100" experiencePoints="24" initialSlots="2" levelAvailable="21" name="cake oven"/>
+        <productionBuilding buildTime="3614" cost="118000" experiencePoints="24" initialSlots="2" levelAvailable="48" name="candle maker"/>
+        <productionBuilding buildTime="3600" cost="120000" experiencePoints="27" initialSlots="2" levelAvailable="51" name="candy machine"/>
+        <productionBuilding buildTime="3611" cost="75000" experiencePoints="35" initialSlots="2" levelAvailable="42" name="coffee kiosk"/>
+        <productionBuilding buildTime="2" cost="50" experiencePoints="8" initialSlots="2" levelAvailable="6" name="dairy"/>
+        <productionBuilding buildTime="7209" cost="90000" experiencePoints="34" initialSlots="1" levelAvailable="50" name="duck salon"/>
+        <productionBuilding buildTime="40" cost="5" experiencePoints="4" initialSlots="2" levelAvailable="3" name="feed mill"/>
+        <productionBuilding buildTime="10803" cost="260000" experiencePoints="40" initialSlots="2" levelAvailable="70" name="hat maker"/>
+        <productionBuilding buildTime="3600" cost="35000" experiencePoints="24" initialSlots="2" levelAvailable="39" name="honey extractor"/>
+        <productionBuilding buildTime="10816" cost="650000" experiencePoints="41" initialSlots="2" levelAvailable="75" name="hot dog stand"/>
+        <productionBuilding buildTime="3607" cost="38000" experiencePoints="-1" initialSlots="2" levelAvailable="29" name="ice cream maker"/>
+        <productionBuilding buildTime="3612" cost="59000" experiencePoints="-1" initialSlots="2" levelAvailable="35" name="jam maker"/>
+        <productionBuilding buildTime="3612" cost="68000" experiencePoints="28" initialSlots="2" levelAvailable="38" name="jeweler"/>
+        <productionBuilding buildTime="3607" cost="31000" experiencePoints="27" initialSlots="2" levelAvailable="26" name="juice press"/>
+        <productionBuilding buildTime="7200" cost="80000" experiencePoints="32" initialSlots="1" levelAvailable="44" name="lobster pool"/>
+        <productionBuilding buildTime="3600" cost="3200" experiencePoints="24" initialSlots="2" levelAvailable="17" name="loom"/>
+        <productionBuilding buildTime="0" cost="0" experiencePoints="-1" initialSlots="2" levelAvailable="27" name="lure workbench"/>
+        <productionBuilding buildTime="3611" cost="21000" experiencePoints="28" initialSlots="1" levelAvailable="24" name="mine"/>
+        <productionBuilding buildTime="7200" cost="28000" experiencePoints="-1" initialSlots="2" levelAvailable="30" name="net maker"/>
+        <productionBuilding buildTime="10812" cost="550000" experiencePoints="42" initialSlots="2" levelAvailable="72" name="pasta kitchen"/>
+        <productionBuilding buildTime="10807" cost="400000" experiencePoints="43" initialSlots="2" levelAvailable="67" name="pasta maker"/>
+        <productionBuilding buildTime="12" cost="2200" experiencePoints="17" initialSlots="2" levelAvailable="14" name="pie oven"/>
+        <productionBuilding buildTime="8" cost="650" experiencePoints="14" initialSlots="2" levelAvailable="8" name="popcorn pot"/>
+        <productionBuilding buildTime="7200" cost="165000" experiencePoints="32" initialSlots="2" levelAvailable="58" name="salad bar"/>
+        <productionBuilding buildTime="7204" cost="180000" experiencePoints="34" initialSlots="2" levelAvailable="61" name="sandwich bar"/>
+        <productionBuilding buildTime="3616" cost="135000" experiencePoints="30" initialSlots="2" levelAvailable="54" name="sauce maker"/>
+        <productionBuilding buildTime="20" cost="4500" experiencePoints="19" initialSlots="2" levelAvailable="19" name="sewing machine"/>
+        <productionBuilding buildTime="18" cost="12500" experiencePoints="21" initialSlots="1" levelAvailable="24" name="smelter"/>
+        <productionBuilding buildTime="10800" cost="220000" experiencePoints="39" initialSlots="2" levelAvailable="64" name="smoothie mixer"/>
+        <productionBuilding buildTime="3612" cost="115000" experiencePoints="28" initialSlots="2" levelAvailable="46" name="soup kitchen"/>
+        <productionBuilding buildTime="6" cost="350" experiencePoints="13" initialSlots="2" levelAvailable="7" name="sugar mill"/>
+        <productionBuilding buildTime="3620" cost="150000" experiencePoints="38" initialSlots="2" levelAvailable="56" name="sushi bar"/>
+        <productionBuilding buildTime="10818" cost="700000" experiencePoints="43" initialSlots="2" levelAvailable="77" name="taco kitchen"/>
+        <productionBuilding buildTime="10823" cost="750000" experiencePoints="44" initialSlots="2" levelAvailable="80" name="tea stand"/>
+    </productionBuildingList>
+    <treeList>
+		<tree name="apple tree" cost="160" growTime="16" levelAvailable="15" type="tree" fruit="apple"/>
+		<tree name="banana tree" cost="800" growTime="27" levelAvailable="88" type="tree" fruit="banana"/>
+		<tree name="blackberry bush" cost="530" growTime="31" levelAvailable="26" type="bush" fruit="blackberry"/>
+		<tree name="cherry tree" cost="410" growTime="27" levelAvailable="22" type="tree" fruit="cherry"/>
+		<tree name="cacao tree" cost="550" growTime="34" levelAvailable="36" type="tree" fruit="cacao"/>
+		<tree name="coffee bush" cost="375" growTime="24" levelAvailable="42" type="tree" fruit="coffee bean"/>
+		<tree name="lemon tree" cost="670" growTime="28" levelAvailable="66" type="tree" fruit="lemon"/>
+		<tree name="olive tree" cost="620" growTime="24" levelAvailable="57" type="tree" fruit="olive"/>
+		<tree name="orange tree" cost="720" growTime="31" levelAvailable="71" type="tree" fruit="orange"/>
+		<tree name="peach tree" cost="750" growTime="30" levelAvailable="76" type="tree" fruit="peach"/>
+		<tree name="raspberry bush" cost="220" growTime="18" levelAvailable="19" type="bush" fruit="raspberry"/>
+    </treeList>
+</hayDay>
